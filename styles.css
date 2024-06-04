@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Monserrat&display=swap");
+
+body {
+  font-family: "Monserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+@media (max-width: 576px) {
+  header p {
+    font-size: 0.875rem; /* Reduce el tamaño de la fuente en pantallas pequeñas */
+  }
+}
+
+@media (min-width: 577px) {
+  header p {
+    font-size: 1rem; /* Tamaño de la fuente por defecto para pantallas más grandes */
+  }
+}
+
+@media (max-width: 576px) {
+  .titulo {
+    font-size: 1.25rem; /* Reducir tamaño de la fuente en pantallas pequeñas */
+  }
+}
+
+@media (min-width: 577px) {
+  .titulo {
+    font-size: 1.5rem; /* Tamaño de fuente por defecto para pantallas más grandes */
+  }
+}
+
+.titulo {
+  color: yellow;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.navbar {
+  background: linear-gradient(45deg, orangered, orange, yellow);
+}
+
+#menu a:hover {
+  font-weight: bold;
+  color: orangered;
+}
+
+.carousel-inner {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+@media (max-width: 968px) {
+  #intro {
+    width: 90% !important;
+  }
+
+  .servicio-fila {
+    width: 100% !important;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+}
+
+.ubicacion {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: orange;
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+}
+
+#iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: white;
+}
